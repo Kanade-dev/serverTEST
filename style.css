@@ -3,11 +3,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #222; /* 背景色を濃いグレーに変更 */
+    color: #fff; /* 文字色を白に変更 */
     margin: 0;
 }
 
+h1 {
+    margin-bottom: 20px;
+}
+
 #tetrisCanvas {
-    border: 2px solid #333;
-    background-color: #eee;
+    border: 4px solid #eee; /* 枠線を太く、明るい色に変更 */
+    background-color: #333; /* キャンバスの背景色を濃いグレーに変更 */
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 1.2em;
 }
